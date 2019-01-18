@@ -4,6 +4,7 @@
   "description": "battleship game using Express.js, Welgo and Websockets",
   "main": "src/index.js",
   "scripts": {
+    "start": "nodemon src/index.js",
     "test": "jest"
   },
   "repository": {
@@ -21,5 +22,15 @@
   "bugs": {
     "url": "https://github.com/Bloomca/battleship/issues"
   },
-  "homepage": "https://github.com/Bloomca/battleship#readme"
+  "homepage": "https://github.com/Bloomca/battleship#readme",
+  "devDependencies": {
+    "eslint": "^5.12.0",
+    "nodemon": "^1.18.9",
+    "prettier": "^1.15.3"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "htm": "^2.0.0",
+    "welgo": "^0.4.0-beta-2"
+  }
 }
