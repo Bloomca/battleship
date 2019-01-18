@@ -1,0 +1,25 @@
+{
+  "name": "battleship",
+  "version": "1.0.0",
+  "description": "battleship game using Express.js, Welgo and Websockets",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bloomca/battleship.git"
+  },
+  "keywords": [
+    "battleship",
+    "node",
+    "welgo",
+    "express"
+  ],
+  "author": "Seva Zaikov <seva.zaikov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Bloomca/battleship/issues"
+  },
+  "homepage": "https://github.com/Bloomca/battleship#readme"
+}
