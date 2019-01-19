@@ -4,6 +4,7 @@ const { render } = require("welgo");
 
 const html = require("./utils/html");
 const IndexPage = require("./components/index");
+const NotFoundPage = require("./components/notFound");
 
 const app = express();
 
@@ -13,6 +14,16 @@ app.get("/", async (req, res) => {
   const page = await render(
     html`
       <${IndexPage} />
+    `
+  );
+  res.send(page);
+});
+
+app.get("*", async (req, res) => {
+  res.statusCode = 404;
+  const page = await render(
+    html`
+      <${NotFoundPage} />
     `
   );
   res.send(page);
