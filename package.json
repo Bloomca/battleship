@@ -31,6 +31,6 @@
   "dependencies": {
     "express": "^4.16.4",
     "htm": "^2.0.0",
-    "welgo": "^0.4.0-beta-2"
+    "welgo": "^0.5.1"
   }
 }
