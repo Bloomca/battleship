@@ -6,3 +6,30 @@ body {
 * {
   box-sizing: border-box;
 }
+
+.cell {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ccc;
+  background-color: blue;
+}
+
+.cell.ship {
+  background-color: #bbb;
+}
+
+.cell.fire {
+  background-color: red;
+}
+
+.ship-cell {
+  width: 15px;
+  height: 15px;
+  background-color: #bbb;
+  border: 1px solid #333;
+}
+
+.ship-cell.horizontal {
+  display: inline-block;
+}
